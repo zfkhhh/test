@@ -1,12 +1,14 @@
 package main
 
-func change(p *int)  {
+import "fmt"
+
+func change(p *int) {
 	*p = 10
 }
 
-/*func main(){
+func main() {
 	a := 1
 	// 指针传递
 	change(&a)
-	fmt.Println("a = ",a)
-}*/
+	fmt.Println("a = ", a)
+}
